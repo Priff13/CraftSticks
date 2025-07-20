@@ -1,0 +1,97 @@
+[
+	{
+		"ingredientPattern": "L,A",
+		"width": 1,
+		"height": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true,
+				"name": "material",
+				"allowedVariants": [ "chert", "granite", "andesite", "basalt", "peridotite", "bone-chert", "bone-granite", "bone-andesite", "bone-basalt", "bone-peridotite" ],
+				"toolDurabilityCost": 10
+			},
+			"L": {
+				"type": "block",
+				"code": "game:log*-*"
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "game:stick",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "L,A",
+		"width": 1,
+		"height": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true,
+				"name": "material",
+				"allowedVariants": [ "flint", "bone-flint" ],
+				"toolDurabilityCost": 8
+			},
+			"L": {
+				"type": "block",
+				"code": "game:log*-*"
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "game:stick",
+			"quantity": 6
+		}
+	},
+	{
+		"ingredientPattern": "L,A",
+		"width": 1,
+		"height": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true,
+				"name": "material",
+				"allowedVariants": [ "obsidian", "bone-obsidian" ],
+				"toolDurabilityCost": 6
+			},
+			"L": {
+				"type": "block",
+				"code": "game:log*-*"
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "game:stick",
+			"quantity": 8
+		}
+	},
+	{
+		"ingredientPattern": "L,A",
+		"width": 1,
+		"height": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true,
+				"toolDurabilityCost": 3,
+				"skipVariants": [ "chert", "granite", "andesite", "basalt", "peridotite", "bone-chert", "bone-granite", "bone-andesite", "bone-basalt", "bone-peridotite", "obsidian", "bone-obsidian", "flint", "bone-flint" ]
+			},
+			"L": {
+				"type": "block",
+				"code": "game:log*-*"
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "game:stick",
+			"quantity": 16
+		}
+	}
+]
